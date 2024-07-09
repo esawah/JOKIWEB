@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @import "bootstrap/dist/css/bootstrap.min.css"; */
+
+.active {
+    background-color: #4a5568; /* bg-gray-700 */
+    color: white;
+}
+.menu-item[aria-current="page"] {
+    background-color: #4a5568; /* bg-gray-700 */
+    color: white;
+}
